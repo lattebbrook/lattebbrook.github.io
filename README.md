@@ -19,7 +19,7 @@ Website for Barber house name Paranee which code by using HTML5, React.js with f
   - Discuss, and optionally continue committing.
   
 - <b> ดาวน์โหลดไฟล์เป็น zip และแก้ไขแต่ละส่วน จากนั้นส่งเข้า Discord หรือไลน์ เพื่อ merge เข้า repository ถ้าใช้ Git ไม่คล่อง</b>
-URL: <a href="https://github.com/lattebbrook/Paranee-barber/archive/refs/heads/main.zip">https://github.com/lattebbrook/Paranee-barber/archive/refs/heads/main.zip</a>
+<p> &nbsp &nbsp URL: <a href="https://github.com/lattebbrook/Paranee-barber/archive/refs/heads/main.zip">https://github.com/lattebbrook/Paranee-barber/archive/refs/heads/main.zip</p>
 
 ## Tools and Language We Use:
 <p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60"/>
