@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html><head>
 <title>Paranee Baber | ร้านตัดผมผู้ชายสไตล์เกาหลีและวินเทจ</title>
-<head></head>
+<link rel="stylesheet" href="normalize.css">
+</head>
 <body>
-    <main></main>
+    <header><h3 class="top-header">Paranee Barber House</h3>
+    <section class="top-menu"></section></header>
+    <main>
+        <div class="container"><p>Test</p></div>
+    </main>
 </body>
-<footer></footer>
+<footer><div class="container"><h3>Footer Class</h3>
+    <p>Footer Link 1</p>
+    <p>Footer Link 2</p>
+    <p>Footer Link 3</p>
+    <p>Footer Link 4</p></div></footer>
 <style>
-    body {
-        font-family: sans-serif;
-        font-size: 14px;
-    }
+    /* Global */
+    @font-face { font-family: "Amazon Ember"; src: url("fonts/AmazonEmber_Rg.ttf"); }
+    html { font-size: 14px;}
+
+    /* Header */
+    header { background-color: rgb(78, 74, 69); min-height: 2rem; }
+    .top-header { margin: 1rem 1rem; color: azure;}
+
+    /* Body */
+    body { font-family: "Amazon Ember";background-color: rgb(228, 223, 223); min-height: 100vh; display: grid; color: #333 }
+    .container { width: 90%; max-width: 1024px; display: block; margin: 0 auto;}
+    a { text-decoration: none;}
+
+    /* footer */
+    footer { background-color: grey; align-self: end;}
+    .footer-class { font-size: 16px;}
 </style>
 </html>
