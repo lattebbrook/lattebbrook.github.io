@@ -43,6 +43,7 @@ a {
     padding-left: 50px;
     padding-right: 30px;
     color: ghostwhite;
+    margin-right: 10px;
 }
 
 .nav-link.active {
@@ -190,4 +191,9 @@ a.button {
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(70%);
+}
+
+.navbar-toggler {
+    filter: invert(100%);
+    margin-right: 10px;
 }
