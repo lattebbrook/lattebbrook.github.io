@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+    
+    <title>Paranee Barber House</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-space ">
+      
+      <div class="container">
+      <a class="navbar-brand logo-text" href="index.html">PARANEE BARBER</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#home">หน้าแรก <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">บริการของเรา</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">รวมรูปภาพ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">ติดต่อ-จองคิวตัดผม</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <script>
+      $('.navbar-toggler').click(function() {
+        var expanded = $(this).attr('aria-expanded') === 'true';
+        $(this).attr('aria-expanded', !expanded);
+      });
+    </script>
+    
+
+    <section id="home">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h1 class="text-white display-5">Paranee Barber</h1>
+            <p class="text-white">รับออกแบบตัดผมสุภาพบุรุษสไตล์วินเทจ และเกาหลี <br>เราคือมืออาชีพด้านทรงผมผู้ชายที่พร้อมให้บริการทุกวัน<br></p><p>รับตัดผมสจ๊วต นายแบบ ตัดผมถ่ายรูป ตัดผมรับปริญญา</p>
+            <a href="#contact">
+            <button type="button" class="btn btn-outline-light">จองคิวตัดผม</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="services" style="padding-top: 20px; padding-bottom: 30px;">
+  <!-- Container (The Band Section) -->
+  <div class="container text-center about">
+    <h3 class="text-white">บริการของเรา</h3>
+    <p class="text-white" style="padding-top: 30px;">หากคุณกำลังมองหาร้านตัดผมชายที่มีมืออาชีพและคุณภาพสูง Paranee Barber ตอบโจทย์คุณอย่างแน่นอน <br>ที่นี่เรามีทีมช่างผมมืออาชีพที่มีประสบการณ์และความชำนาญในการตัดแต่งผมของผู้ชาย ไม่ว่าจะเป็นการตัดผมทรงวินเทจ ตัดผมแนวเกาหลี หรือตัดผมแนวทันสมัยเราก็สามารถจัดให้คุณได้</p>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="img/haircut.png" class="img-circle person" alt="Random Name" width="150" height="150">
+          <p class="text-center text-white" style="text-decoration: none;"><strong>บริการตัดผม</strong></p><br>
+      </div>
+
+      <div class="col-sm-4">
+          <img src="img/beard.png" class="img-circle person" alt="Random Name" width="150" height="150">
+          <p class="text-center text-white" style="text-decoration: none;"><strong>บริการโกนหนวด</strong></p><br>
+      </div>
+
+      <div class="col-sm-4">
+          <img src="img/hairwash.png" class="img-circle person" alt="Random Name" width="150" height="150">
+          <p class="text-center text-white" style="text-decoration: none;"><strong>บริการสระผม</strong></p><br>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="container-fluid text-center bg-grey">
+    <h2>ตัวอย่างงานตัดผมของเรา</h2>
+    <div class="row text-center pt-5">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/1.png" alt="Paris" style="border-radius: 100%;" width="150" height="150">
+          <p><strong>ทรงเกาหลี</strong></p>
+          <p>Yes, we built Paris</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/2.png" alt="New York" style="border-radius: 100%;" width="150" height="150">
+          <p><strong>ทรงทันสมัย</strong></p>
+          <p>We built New York</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/3.png" alt="San Francisco" style="border-radius: 100%;" width="150" height="150">
+          <p><strong>ทรงวินเทจ</strong></p>
+          <p>Yes, San Fran is ours</p>
+        </div>
+      </div>
+  </div>
+  <h2>What our customers say</h2>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+    </div>
+    <div class="item">
+      <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+    </div>
+    <div class="item">
+      <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+
+
+<section id="contact">
+  <div class="container-fluid text-center bg-grey pb-5">
+    <h2 class="text-white pt-5 pb-5">ติดต่อ-จองคิวตัดผม</h2>
+      <div class="row">
+        <div class="col-sm-8">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.3021966678125!2d100.6126012!3d13.940603599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e283475bfb0c8b%3A0x879f6101e2a7ec63!2sParanee%20House%20Nails%20%26%20Barber!5e0!3m2!1sen!2sth!4v1680259592274!5m2!1sen!2sth" 
+          width="80%" height="450" frameborder="1" allowfullscreen data-aos="fade-left" data-aos-duration="3000"></iframe>
+        </div>
+        <div class="col-sm-3">
+          <h4 class="text-white">จองคิวตัดผม</h4>
+          <p class="text-white">สามารถจองได้ทุกวัน <span style="color: rgb(255, 149, 149);"><b>ยกเว้นวันพุธ (ร้านหยุดวันพุธ)</b></span></p>
+          
+          <p class="text-white">การจองสามารถจองผ่าน LINE @ ได้ที่ LINE นี้เลยค่ะ</p><br>
+          <img src="img/line.png" alt="id-line" width="50" height="50" style="display: inline-block;"><p style="display: inline-block; padding-left: 20px; font-size: 22px;" class="text-white">@paraneebarber (มี @ ด้วยค่ะ)</p></div>
+        </div>
+      </div>
+    </div>
+</section>
+    
+  </body>
+    <section id="footer">
+    <div class="container footer-cnt">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-4  ">
+        <p class="col-md-4 mb-0 text-white">© 2023 Paranee Barber </p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+        </ul>
+    </div>
+  </section>
+  </footer>
+</html>

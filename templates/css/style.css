@@ -1,0 +1,15 @@
+body{
+    font-family: Kanit;
+}
+.navbar {
+    padding-left: 30px;
+}
+.nav-item {
+    margin-left: 2veh;
+}
+.container {
+    margin-left: 5rem;
+}
+.custom-navbar {
+    background-color: rgb(245, 245, 245);
+}
